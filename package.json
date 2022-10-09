@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node-email.js",
+    "dev": "nodemon node-email.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "readline-sync": "^1.4.10"
+  }
+}
